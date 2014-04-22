@@ -1,0 +1,26 @@
+{
+  "name": "gulp-check",
+  "version": "0.0.0",
+  "description": "Gulp plugin to detect illegal expressions",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --compilers coffee:coffee-script/register"
+  },
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "check",
+    "convention"
+  ],
+  "author": "Nicholas Boll",
+  "license": "ISC",
+  "dependencies": {
+    "through2": "^0.4.1",
+    "gulp-util": "^2.2.14"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "coffee-script": "^1.7.1",
+    "chai": "^1.9.1"
+  }
+}
