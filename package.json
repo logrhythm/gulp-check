@@ -4,7 +4,7 @@
   "description": "Gulp plugin to detect illegal expressions",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --compilers coffee:coffee-script/register"
+    "test": "./node_modules/.bin/mocha --compilers coffee:coffee-script/register --reporter list"
   },
   "keywords": [
     "gulp",
@@ -21,6 +21,8 @@
   "devDependencies": {
     "mocha": "^1.18.2",
     "coffee-script": "^1.7.1",
-    "chai": "^1.9.1"
+    "chai": "^1.9.1",
+    "sinon": "^1.9.1",
+    "sinon-chai": "^2.5.0"
   }
 }

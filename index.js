@@ -1,9 +1,8 @@
-'use strict';
-
 var through = require('through2');
 var gutil = require('gulp-util');
 
 module.exports = function (pattern) {
+  'use strict';
   if (typeof pattern === 'string') {
     pattern = new RegExp(pattern);
   } else if (!pattern instanceof RegExp) {
