@@ -39,3 +39,6 @@ The regex pattern to search for. See the [MDN documentation for RegExp](https://
 This plugin will throw errors on the file stream and it is up to you to handle them. The first error found will stop the stream showing you what was found and what file it was found in.
 
 If you want the plugin to find all errors without stopping the stream, use `gulp-plumber`
+
+### Changelog
+#### 2014/04/23 - 0.1.0 - First release
