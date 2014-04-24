@@ -1,18 +1,17 @@
 {
   "name": "gulp-check",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Gulp plugin to detect illegal expressions",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --compilers coffee:coffee-script/register --reporter list"
   },
   "keywords": [
-    "gulp",
     "gulpplugin",
     "check",
     "convention"
   ],
-  "author": "Nicholas Boll",
+  "author": "Nicholas Boll <nicholas.boll@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "through2": "^0.4.1",
@@ -24,5 +23,12 @@
     "chai": "^1.9.1",
     "sinon": "^1.9.1",
     "sinon-chai": "^2.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LogRhythm/gulp-check"
+  },
+  "bugs": {
+    "url": "https://github.com/LogRhythm/gulp-check/issues"
   }
 }

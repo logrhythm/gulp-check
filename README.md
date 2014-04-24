@@ -42,3 +42,4 @@ If you want the plugin to find all errors without stopping the stream, use `gulp
 
 ### Changelog
 #### 2014/04/23 - 0.1.0 - First release
+#### 2014/04/24 - 0.1.1 - Added fields to package.json
