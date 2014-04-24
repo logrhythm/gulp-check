@@ -5,7 +5,7 @@
 
 Install `gulp-check` as a development dependency
 ```shell
-npm install gulp-replace -D
+npm install gulp-check -D
 ```
 
 Add it to your `gulpfile`
