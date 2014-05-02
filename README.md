@@ -1,5 +1,6 @@
 # gulp-check
 > Gulp plugin to check for illegal expressions
+[![Build Status](https://travis-ci.org/LogRhythm/gulp-check.svg?branch=master)](https://travis-ci.org/LogRhythm/gulp-check)
 
 ## Usage
 
