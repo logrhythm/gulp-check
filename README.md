@@ -3,13 +3,20 @@
 
 ## Usage
 
+To use gulp please ensure gulp is installed globally as well as locally. 
+```
+npm install gulp -g
+npm install gulp -D
+```
+
 Install `gulp-check` as a development dependency
 ```shell
-npm install gulp-replace -D
+npm install gulp-check -D
 ```
 
 Add it to your `gulpfile`
 ```javascript
+var gulp  = require('gulp');
 var check = require('gulp-check');
 var util = require('gulp-util');
 
